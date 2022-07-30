@@ -37,7 +37,7 @@ function App() {
       <header id="navbar">
         <div class="left1">
             <img src={logo} alt="" id="title"/>
-            <h2 id="title-name">mukularanayam</h2>
+            <h2 id="title-name">Mukularanayam</h2>
         </div>
 
         <div class="mid">
