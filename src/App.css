@@ -5,7 +5,7 @@ body {
 
 .container,
 .container2,
-.container3 {
+.contact-container{
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -75,6 +75,84 @@ body {
 .button a:hover{
   font-size: 11px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 nav{
   z-index: 1;
@@ -672,4 +750,6 @@ nav ul li a:hover{
 .manage-p{
   color: #333333; font-family: sans-serif; margin-top: -10px;
 }
+
+
 
