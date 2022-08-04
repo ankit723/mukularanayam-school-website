@@ -6,7 +6,8 @@ body {
 
 .container,
 .container2,
-.contact-container{
+.contact-container,
+.addmissions-container{
   position: relative;
   background-attachment: fixed;
   background-position: center;

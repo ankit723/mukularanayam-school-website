@@ -1,6 +1,7 @@
 import "./App.css";
 import "./contact.css";
 import "./footer.css";
+import "./addform.css";
 import { Extreme } from "./components/Extremetop";
 import { Navbar } from "./components/Navbar";
 import React from "react";
@@ -8,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { Addmissions } from "./components/Addmissions";
 
 function scrollFunction() {
   if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
@@ -58,6 +60,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Contact" element={<Contact />} />
+            <Route path="/Addmissions" element={<Addmissions/>} />
           </Routes>
 
           {/* footer developer details */}

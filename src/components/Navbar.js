@@ -14,9 +14,9 @@ export function Navbar(){
             <div class="mid">
                 <ul>
                     <li><Link to="/" class="mid-js">Home</Link></li>
-                    <li><Link to="/addmissions.html" class="mid-js">Addmissions</Link></li>
-                    <li><Link to="/teacher.html" class="mid-js">Teacher's Login</Link></li>
-                    <li><Link to="/student.html" class="mid-js">Student's Login</Link></li>
+                    <li><Link to="/Addmissions" class="mid-js">Addmissions</Link></li>
+                    <li><Link to="/teacher" class="mid-js">Teacher's Login</Link></li>
+                    <li><Link to="/student" class="mid-js">Student's Login</Link></li>
                     <li><Link to="/Contact" class="mid-js">Contact</Link></li>
                 </ul>
             </div>
