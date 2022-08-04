@@ -1,11 +1,11 @@
 {
   "main.css": "/mukularanayam-school-website/static/css/main.b8bcadbf.chunk.css",
-  "main.js": "/mukularanayam-school-website/static/js/main.6ab9dd62.chunk.js",
-  "main.js.map": "/mukularanayam-school-website/static/js/main.6ab9dd62.chunk.js.map",
+  "main.js": "/mukularanayam-school-website/static/js/main.de8ec880.chunk.js",
+  "main.js.map": "/mukularanayam-school-website/static/js/main.de8ec880.chunk.js.map",
   "static/js/1.6a7bfa4d.chunk.js": "/mukularanayam-school-website/static/js/1.6a7bfa4d.chunk.js",
   "static/js/1.6a7bfa4d.chunk.js.map": "/mukularanayam-school-website/static/js/1.6a7bfa4d.chunk.js.map",
-  "static/js/2.4b65be73.chunk.js": "/mukularanayam-school-website/static/js/2.4b65be73.chunk.js",
-  "static/js/2.4b65be73.chunk.js.map": "/mukularanayam-school-website/static/js/2.4b65be73.chunk.js.map",
+  "static/js/2.fecdbe22.chunk.js": "/mukularanayam-school-website/static/js/2.fecdbe22.chunk.js",
+  "static/js/2.fecdbe22.chunk.js.map": "/mukularanayam-school-website/static/js/2.fecdbe22.chunk.js.map",
   "runtime~main.js": "/mukularanayam-school-website/static/js/runtime~main.74d65cfb.js",
   "runtime~main.js.map": "/mukularanayam-school-website/static/js/runtime~main.74d65cfb.js.map",
   "static/media/about-bg.jpg": "/mukularanayam-school-website/static/media/about-bg.b7bc8412.jpg",
@@ -20,6 +20,6 @@
   "static/media/addform.css": "/mukularanayam-school-website/static/media/addmisions.05fcb141.jpg",
   "static/css/main.b8bcadbf.chunk.css.map": "/mukularanayam-school-website/static/css/main.b8bcadbf.chunk.css.map",
   "index.html": "/mukularanayam-school-website/index.html",
-  "precache-manifest.8e54be48e1d84aa1ac8029ccfeb6049c.js": "/mukularanayam-school-website/precache-manifest.8e54be48e1d84aa1ac8029ccfeb6049c.js",
+  "precache-manifest.bc5d42dad4d7889f7beecbbeb0ccbda5.js": "/mukularanayam-school-website/precache-manifest.bc5d42dad4d7889f7beecbbeb0ccbda5.js",
   "service-worker.js": "/mukularanayam-school-website/service-worker.js"
 }
