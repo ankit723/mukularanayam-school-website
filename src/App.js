@@ -5,7 +5,7 @@ import "./addform.css";
 import { Extreme } from "./components/Extremetop";
 import { Navbar } from "./components/Navbar";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
@@ -51,20 +51,22 @@ function App() {
   return (
     <>
       <Router>
-          {/* extreme top nav bar */}
-          <Extreme />
+        <div className="App-media">
+            {/* extreme top nav bar */}
+            <Extreme />
 
-          {/* nav bar */}
-          <Navbar />
+            {/* nav bar */}
+            <Navbar />
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Contact" element={<Contact />} />
-            <Route path="/Addmissions" element={<Addmissions/>} />
-          </Routes>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/Contact" element={<Contact />} />
+              <Route path="/Addmissions" element={<Addmissions/>} />
+            </Routes>
 
-          {/* footer developer details */}
-          <Footer/>
+            {/* footer developer details */}
+            <Footer/>
+        </div>
       </Router>
     </>
   );
