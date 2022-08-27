@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './about-icons/logo.png';
+import header from './about-icons/header-logo.png';
 import { Link } from 'react-router-dom';
 
 

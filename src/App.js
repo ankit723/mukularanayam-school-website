@@ -11,6 +11,7 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Addmissions } from "./components/Addmissions";
 
+
 function scrollFunction() {
   if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
     document.getElementById("navbar").style.backgroundColor =
@@ -23,6 +24,7 @@ function scrollFunction() {
     document.getElementsByClassName("mid-js")[2].style.color = "black";
     document.getElementsByClassName("mid-js")[3].style.color = "black";
     document.getElementsByClassName("mid-js")[4].style.color = "black";
+    document.getElementsByClassName("mid")[0].style.marginLeft = "10rem";
     document.getElementById("title-name").style.marginLeft = "-210px";
     document.getElementById("title-name").style.transition = "0.5s";
     document.getElementById("title-name").style.opacity = "0";
@@ -36,8 +38,9 @@ function scrollFunction() {
     document.getElementsByClassName("mid-js")[2].style.color = "white";
     document.getElementsByClassName("mid-js")[3].style.color = "white";
     document.getElementsByClassName("mid-js")[4].style.color = "white";
+    document.getElementsByClassName("mid")[0].style.marginLeft = "0rem";
     document.getElementById("title-name").style.transition = "0.5s";
-    document.getElementById("title-name").style.marginLeft = "85px";
+    document.getElementById("title-name").style.marginLeft = "10rem";
     document.getElementById("title-name").style.opacity = "1";
     document.getElementById("title-name").style.color = "white";
   }
@@ -65,7 +68,7 @@ function App() {
             </Routes>
 
             {/* footer developer details */}
-            <Footer/>
+            {/* <Footer/> */}
         </div>
       </Router>
     </>

@@ -9,26 +9,11 @@ import tc from './about-icons/tc.png';
 export function Insider(){
     return (
         <div class="cont-insider">
-            <div class="insider">
-                <div class="insider1">
-                    <h3>Download Centre</h3>
-                    <p>You can download you study materials here</p>
-                </div>
-                <div class="insider2">
-                    <h3>Annual Exam Date Sheet</h3>
-                    <p>Get your Date Sheet here</p>
-                </div>
-                <div class="insider3">
-                    <h3>Study Materials</h3>
-                    <p>You can download you study materials here</p>
-                </div>   
-
-            </div>
-
+        
             <div class="head-title">
                 <h2>School Insider's</h2>
                 <div class="title-discription">
-                    <p>In this section you can find out what more insider the school and get to know insider the infrastucture and more</p>
+                    <p>Find out what more on the school and get to know more about the school</p>
                     <p id="next-p">Welcome to Mukularanayam English School</p>
                 </div>
             </div>
