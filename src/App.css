@@ -1,7 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 255, 255);
+  color: #212112;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 7%;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: all 200ms linear;
 }
 .insiders3{
   display: none;
@@ -245,77 +252,9 @@ nav ul li a:hover{
   font-size: 0.6rem;
 }
 
-.insider{
-  display: flex;
-  margin-left: 16.2rem;
-  margin-top: -3.1rem;
-  justify-content: space-between;
-  margin-right: 16.8rem;
-}
 
-.insider1{
-  z-index: 1;
-  background-color: #51557E;
-  justify-content: space-between;
-  align-items: center;
-  height: 15.6rem;
-  width: 21.8rem;
-  transition: 0.2s;
-  box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.37rem 1.25rem 0 rgba(0, 0, 0, 0.575);
-}
 
-.insider1:hover{
-  cursor: pointer;
-}
 
-.insider2{
-  z-index: 1;
-  background-color: #816797;
-  justify-content: space-between;
-  height: 15.6rem;
-  width: 21.9rem;
-  box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.37rem 1.25rem 0 rgba(0, 0, 0, 0.575);
-}
-
-.insider2:hover{
-  cursor: pointer;
-}
-
-.insider3{
-  z-index: 1;
-  background-color: #D6D5A8;
-  justify-content: space-between;
-  height: 15.6rem;
-  width: 21.9rem;
-  box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.37rem 1.25rem 0 rgba(0, 0, 0, 0.575);
-}
-
-.insider3:hover{
-  cursor: pointer;
-}
-
-.insider1 h3{
-  color: white;
-  font-family: "muli", sans-serif;
-  line-height: 1.6;
-  font-size: 20px;
-  padding-top: 40px;
-}
-
-.insider2 h3{
-  color: white;
-  font-family: "muli", sans-serif;
-  line-height: 1.6;
-  font-size: 1.25rem;
-  padding-top: 2.5rem;
-}
-.insider3 h3{
-  color: white;
-  font-family: "muli", sans-serif;
-  line-height: 1.6;
-  font-size: 1.25rem;
-  padding-top: 2.5rem;
-}
 
 .head-title{
   color: rgb(15, 183, 141);
@@ -537,6 +476,8 @@ nav ul li a:hover{
   margin-top: 1.25rem;
 }
 
+
+
 .container2{
   margin-top: 6.25rem;
   background-image: url("bg/bg3.jpg");
@@ -736,14 +677,19 @@ nav ul li a:hover{
   transition: 0.5s;
 }
 
+@media screen and (max-width: 1441px){
+  html{
+    font-size: 70%;
+  }
+}
 
 
-
-@media screen and (max-width: 998px){
+@media screen and (max-width: 1025px){
   html{
     font-size: 55%;
   }
 }
+
 @media screen and (max-width: 768px) {
   html{
     font-size: 45%;
@@ -871,23 +817,94 @@ nav ul li a:hover{
     display: none;
   }
 
+  .management, .Transfer, .fee, .library, .galary, .cbse{
+    height: 42rem;
+  }
+
+  
+
   .insiders3{
     display: flex;
     justify-content: space-between;
     margin-top: 1.875rem;
     height: 12.5rem;
   }
+
+  .management{
+    margin-left: 3rem;
+    width: 50rem;
+  }
+
+  .management h3, .Transfer h3{
+    font-size: 6rem;
+  }
+
+  .management p, .Transfer p{
+    font-size: 4rem;
+    margin-top: -5rem;
+  }
+
+  .Transfer{
+    width: 50rem;
+    margin-right: 0rem;
+  }
+
+
+
   .insiders4{
     display: flex;
     justify-content: space-between;
-    margin-top: 1.875rem;
+    margin-top: 40rem;
     height: 12.5rem;
   }
+
+  .fee{
+    margin-left: 3rem;
+    width: 55rem;
+    margin-right: 0;
+  }
+
+  .fee h3, .library h3{
+    font-size: 6rem;
+  }
+
+  .fee p, .library p{
+    font-size: 4rem;
+    margin-top: -5rem;
+  }
+
+  .library{
+    width: 50rem;
+    margin-right: 0rem;
+    margin-left: 0;
+  }
+
   .insiders5{
     display: flex;
     justify-content: space-between;
-    margin-top: 1.875rem;
+    margin-top: 45rem;
     height: 12.5rem;
+  }
+
+  .galary{
+    margin-left: 3rem;
+    width: 55rem;
+    margin-right: 0;
+  }
+
+  .galary h3, .cbse h3{
+    font-size: 6rem;
+  }
+
+  .galary p, .cbse p{
+    font-size: 4rem;
+    margin-top: -5rem;
+  }
+
+  .cbse{
+    width: 50rem;
+    margin-right: 0rem;
+    margin-left: 0;
   }
 
 }
@@ -959,7 +976,7 @@ nav ul li a:hover{
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
   html{
     font-size: 15%;
   }

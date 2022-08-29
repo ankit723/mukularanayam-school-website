@@ -81,6 +81,72 @@ export function Insider(){
                     </p>
                 </div>
             </div>       
+
+            <div className="insiders3">
+                <div class="management">
+                    <img src={mg} alt="" className='inside_img'/>
+                    <h3>Management</h3>
+                    <p className="manage-p">
+                        Every school needs to have systems
+                        that help create the conditions for 
+                        staff and students to work effectively together...
+                    </p>
+                </div>
+                
+                <div class="Transfer">
+                    <img src={tc} alt="" className='inside_img'/>
+                    <h3>T Certificate</h3>
+                    <p className="manage-p">
+                        Here you can verify issued transfer
+                        certificate, The certificate is used 
+                        when you change your board or school
+                    </p>
+                </div>
+            </div>
+
+            <div className="insiders4">
+                <div class="fee">
+                    <img src={fee} alt="" className='inside_img'/>
+                    <h3>Fee Structure</h3>
+                    <p className="manage-p">
+                        Each human being is a repository of
+                        knowledge and efficiency in an unmanliness 
+                        form and a teacher is there only to help the students 
+                    </p>
+                </div>
+
+                <div class="library">
+                    <img src={lb} alt="" className='inside_img'/>
+                    <h3>Library</h3>
+                    <p className="manage-p">
+                        The concept of the library is undergoing 
+                        a Meta (Reader's paradise). Beyond books 
+                        and journals, the library today has to be 
+                        the repository of information...
+                    </p>
+                </div>
+            </div>
+
+            <div className="insiders5">
+                <div class="galary">
+                    <img src={gl} alt="" className='inside_img'/>
+                    <h3>Galary</h3>
+                    <p className="manage-p">
+                        Here you will find a large collection of some 
+                        of our best photos to give you a peek at some 
+                        of our amazing Bamboo buildings, a sense of
+                        the activities within ...
+                    </p>
+                </div>
+                
+                <div class="cbse">
+                    <img src={cbse} alt="" className='inside_img'/>
+                    <h3>CBSE Details</h3>
+                    <p className="manage-p">
+                        Affiialiated to CBSE(10+2), New Delhi
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }
