@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mukularanayam-school-website/precache-manifest.5cbbd1ec87b87e52623661a598f7ff21.js"
+  "/mukularanayam-school-website/precache-manifest.b2d3d0ac5fa05b3734d0df901ff6f2f7.js"
 );
 
 workbox.clientsClaim();
