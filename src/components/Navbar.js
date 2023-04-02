@@ -23,7 +23,7 @@ export function Navbar(){
             </div>
 
             <div class="right1">
-                <Link to="addmissions">Enroll Now</Link>
+                <Link to="/addmissions">Enroll Now</Link>
             </div>
         </header>
     )
