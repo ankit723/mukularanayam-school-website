@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export function Contact() {
+  document.title = "Mukularanayam|Contact"
   return (
     <>
       <div class="contact-container"></div>

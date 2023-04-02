@@ -22,12 +22,15 @@ body {
 
 .container,
 .container2,
-.container3 {
+.container3,
+.addmissions-container,
+.contact-container{
   position: relative;
   background-attachment: fixed;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: #ff0000;
 
 }
 

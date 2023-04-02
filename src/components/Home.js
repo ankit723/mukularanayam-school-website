@@ -5,6 +5,7 @@ import { Insider } from './Insider';
 import { Topcontainer } from './Topcontainer';
 
 export function Home(){
+    document.title = "Mukularanayam|Home"
     return(
         <>
         <Topcontainer/>

@@ -2,6 +2,7 @@ import React from 'react';
 
 
 export function Addmissions() {
+    document.title = "Mukularanayam|Addmissions"
     return (
         <>
             <div className="addmissions-container">
