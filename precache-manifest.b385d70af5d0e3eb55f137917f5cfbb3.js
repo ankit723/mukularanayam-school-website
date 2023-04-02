@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c8cdc89bb341e557df13",
-    "url": "/mukularanayam-school-website/static/css/main.1d915197.chunk.css"
+    "revision": "31ff466c9086c72819f3",
+    "url": "/mukularanayam-school-website/static/css/main.444668c5.chunk.css"
   },
   {
-    "revision": "c8cdc89bb341e557df13",
-    "url": "/mukularanayam-school-website/static/js/main.c8cdc89b.chunk.js"
+    "revision": "31ff466c9086c72819f3",
+    "url": "/mukularanayam-school-website/static/js/main.31ff466c.chunk.js"
   },
   {
     "revision": "0b5adef5a8e99730695f",
@@ -56,11 +56,19 @@ self.__precacheManifest = [
     "url": "/mukularanayam-school-website/static/media/bg3.b6031dff.jpg"
   },
   {
+    "revision": "47cf3b8ff225d51a4046862b40429fe4",
+    "url": "/mukularanayam-school-website/static/media/bg4.47cf3b8f.jpg"
+  },
+  {
+    "revision": "05fcb141bf5400c119d68f4fab1c2384",
+    "url": "/mukularanayam-school-website/static/media/addmisions.05fcb141.jpg"
+  },
+  {
     "revision": "16699a1b28c9cb79d5b1fe076963cde4",
     "url": "/mukularanayam-school-website/static/media/header-logo.16699a1b.png"
   },
   {
-    "revision": "30881b28da18745294a9cc6620cddff7",
+    "revision": "6accab45ea150041580387c01d545458",
     "url": "/mukularanayam-school-website/index.html"
   }
 ];

@@ -1,7 +1,7 @@
 {
-  "main.css": "/mukularanayam-school-website/static/css/main.1d915197.chunk.css",
-  "main.js": "/mukularanayam-school-website/static/js/main.c8cdc89b.chunk.js",
-  "main.js.map": "/mukularanayam-school-website/static/js/main.c8cdc89b.chunk.js.map",
+  "main.css": "/mukularanayam-school-website/static/css/main.444668c5.chunk.css",
+  "main.js": "/mukularanayam-school-website/static/js/main.31ff466c.chunk.js",
+  "main.js.map": "/mukularanayam-school-website/static/js/main.31ff466c.chunk.js.map",
   "static/js/1.0b5adef5.chunk.js": "/mukularanayam-school-website/static/js/1.0b5adef5.chunk.js",
   "static/js/1.0b5adef5.chunk.js.map": "/mukularanayam-school-website/static/js/1.0b5adef5.chunk.js.map",
   "static/js/2.ab10bbab.chunk.js": "/mukularanayam-school-website/static/js/2.ab10bbab.chunk.js",
@@ -16,9 +16,11 @@
   "static/media/twitter.png": "/mukularanayam-school-website/static/media/twitter.58690d26.png",
   "static/media/whatsapp.png": "/mukularanayam-school-website/static/media/whatsapp.98e4733a.png",
   "static/media/App.css": "/mukularanayam-school-website/static/media/bg3.b6031dff.jpg",
+  "static/media/contact.css": "/mukularanayam-school-website/static/media/bg4.47cf3b8f.jpg",
+  "static/media/addform.css": "/mukularanayam-school-website/static/media/addmisions.05fcb141.jpg",
   "static/media/header-logo.png": "/mukularanayam-school-website/static/media/header-logo.16699a1b.png",
-  "static/css/main.1d915197.chunk.css.map": "/mukularanayam-school-website/static/css/main.1d915197.chunk.css.map",
+  "static/css/main.444668c5.chunk.css.map": "/mukularanayam-school-website/static/css/main.444668c5.chunk.css.map",
   "index.html": "/mukularanayam-school-website/index.html",
-  "precache-manifest.b2d3d0ac5fa05b3734d0df901ff6f2f7.js": "/mukularanayam-school-website/precache-manifest.b2d3d0ac5fa05b3734d0df901ff6f2f7.js",
+  "precache-manifest.b385d70af5d0e3eb55f137917f5cfbb3.js": "/mukularanayam-school-website/precache-manifest.b385d70af5d0e3eb55f137917f5cfbb3.js",
   "service-worker.js": "/mukularanayam-school-website/service-worker.js"
 }
