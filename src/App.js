@@ -68,7 +68,7 @@ function App() {
             </Routes>
 
             {/* footer developer details */}
-            {/* <Footer/> */}
+            <Footer/>
         </div>
       </Router>
     </>
